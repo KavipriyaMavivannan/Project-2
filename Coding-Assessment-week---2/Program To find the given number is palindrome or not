@@ -1,0 +1,23 @@
+#include <iomanip.h>  
+#include <conio.h>
+using namespace std;
+
+int main()  
+{  
+  int a, b, sum=0, t;    
+  cout<<"Enter the Number=";    
+  cin>>a;   
+ t=a;    
+ while(a>0)    
+{    
+ b=a%10;    
+ sum=(sum*10)+b;    
+ a=a/10;    
+}    
+if(t==sum)    
+cout<<"Number is Palindrome.";    
+else    
+cout<<"Number is not Palindrome."; 
+  getch(); 
+  return 0;  
+}
