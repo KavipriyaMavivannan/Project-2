@@ -1,0 +1,6 @@
+N = int(input("enter the last number ") 
+Sum = 0 
+for i in range(0,n+1) 
+   if(i%2!=0) 
+      Sum=Sum + i 
+Print(Sum)
